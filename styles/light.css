@@ -3,7 +3,7 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-@media (prefers-color-scheme: light) {
+
   .page.theme_light {
     /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
@@ -18,14 +18,14 @@
     --subtitle-color: #353430;
     --article-title-color: #353430;
     --border-hover-color: rgba(50, 49, 45, 0.4);
-    
+
     /* bg */
     --header-bg-image: url(/images/cover-image-light.png);
   }
-
   .page.theme_light .header__decor-element {
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
   }
-}
+
+
