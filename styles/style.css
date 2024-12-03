@@ -14,7 +14,6 @@
 
 .header {
   position: relative;
-  width: 100vw;
   min-height: 100vh;
   padding: 10px;
   background: var(--header-bg-image) no-repeat center / cover;
