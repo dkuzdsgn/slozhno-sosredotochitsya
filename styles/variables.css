@@ -3,10 +3,11 @@
   и их переопределение под различные устройства
 */
 :root {
-
   /* colors */
-  
+
   --accent-color: #ff0070;
+  --decor-color: #ff0070;
+  --buttons-color: #ff0070;
   --title-color: #db00ff;
   --main-bg-color: #000028;
   --main-text-color: #f1b2ce;
@@ -16,9 +17,7 @@
 
   /* font-size */
 
-  --title-size-large: 157px;
-  --title-size-medium: 120px;
-  --title-size-small: 116px;
+  --font: "IBM Plex mono";
 
   --text-size: 18px;
 
@@ -27,5 +26,5 @@
   --font-weight-normal: 400;
 
   /* background image */
-  --header-bg-image: url(/images/cover-image-dark.png);
+  --bg-image: url(/images/cover-image-dark.png);
 }
